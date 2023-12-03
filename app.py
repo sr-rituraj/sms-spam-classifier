@@ -4,6 +4,9 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem import PorterStemmer
 
+nltk.download('stopwords')
+nltk.download('punkt')
+
 def text_transform(text):
 
   text=text.lower()  #lowercasing
